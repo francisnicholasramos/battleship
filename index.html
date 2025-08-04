@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <!-- Choose mode -->
+    <div class="mode">
+      <h2 id="message">Choose game mode: </h2>
+      <button class="single-player">Single player</button>
+      <button class="two-player">Two player</button>
+    </div>
+
+    <div class="switchContainer"></div>
+
+    <!-- grid container -->
+    <div class="container">
+      <!-- grid 1 -->
+      <div class="human">
+        <h2 id="grid1"></h2>
+        <div class="board" id=player1></div>
+        <!-- <div class="board" id="showBoard1"></div> -->
+
+      </div>
+
+      <!-- grid 2 -->
+      <div class="ai"> 
+        <h2 id="grid2"></h2>
+        <div class="board" id="ai-board"></div>
+        <div class="board" id="player2"></div>
+        <!-- <div class="board" id="showBoard2"></div> -->
+
+      </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
